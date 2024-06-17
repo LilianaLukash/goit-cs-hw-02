@@ -25,6 +25,5 @@ for website in "${websites[@]}"; do
     echo "<$website> is DOWN" | tee -a "$log_file"
   fi
 done
-
 # Виведення повідомлення про завершення перевірки
 echo "Результати записано у файл логів: $log_file"
